@@ -1,4 +1,5 @@
 const Hapi = require('@hapi/hapi');
+const router = require('./router');
 
 const init = async () => {
   const server = Hapi.server({
