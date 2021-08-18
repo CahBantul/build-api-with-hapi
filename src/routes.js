@@ -1,4 +1,7 @@
-const { addNoteHandler, getAllNotesHandler, getDetailNoteHandler, editNoteByIdHandler, deleteNoteByIdHandler } = require('./handler');
+const {
+  // eslint-disable-next-line max-len
+  addNoteHandler, getAllNotesHandler, getDetailNoteHandler, editNoteByIdHandler, deleteNoteByIdHandler,
+} = require('./handler');
 
 const router = [
   {
